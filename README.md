@@ -1,9 +1,5 @@
 🚀 STM32F103 UART Project with Renode
 <div align="center">
-https://img.shields.io/badge/STM32-F103CB-blue?style=for-the-badge&logo=stmicroelectronics
-https://img.shields.io/badge/PlatformIO-IDE-orange?style=for-the-badge&logo=visualstudiocode
-https://img.shields.io/badge/Renode-Simulator-purple?style=for-the-badge
-https://img.shields.io/badge/C-CMSIS-green?style=for-the-badge&logo=c
 
 Проект по работе с UART на STM32F103 в симуляторе Renode
 
