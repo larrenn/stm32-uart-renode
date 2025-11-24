@@ -1,20 +1,33 @@
-# PlatformIO
+﻿# PlatformIO
 .pio/
 .piolibdeps/
 .pioenvs/
-.piosolution
 
 # IDE
 .vscode/
 .idea/
 
+# Build files
+*.elf
+*.bin
+*.hex
+*.map
+build/
+dist/
+
+# Images and binaries (добавим картинку в исключения)
+*.png
+*.jpg
+*.jpeg
+*.gif
+
 # OS
 .DS_Store
 Thumbs.db
 
-# Build
-build/
-dist/
-
 # Logs
 *.log
+
+# Temporary files
+*.tmp
+*.temp
