@@ -1,4 +1,4 @@
-🚀 STM32F103 UART Project with Renode
+
 <div align="center">
 
 Проект по работе с UART на STM32F103 в симуляторе Renode
