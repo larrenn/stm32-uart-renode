@@ -1,8 +1,14 @@
 using sysbus
 
+# Создаем машину
 mach create
 machine LoadPlatformDescription @platforms/cpus/stm32f103.repl
 
+# Загружаем прошивку
 sysbus LoadELF @".pio/build/genericSTM32F103CB/firmware.elf"
+
+# Показываем UART1 (самый простой способ)
 showAnalyzer sysbus.usart1
+
+# Запускаем
 machine Start

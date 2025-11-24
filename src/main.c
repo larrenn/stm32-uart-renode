@@ -1,4 +1,5 @@
-﻿#include \"stm32f1xx.h\"
+
+#include "stm32f1xx.h"
 
 void delay(void) {
     for(volatile int i = 0; i < 1000000; i++);
@@ -18,7 +19,7 @@ int main(void) {
     USART2->CR1 = USART_CR1_TE | USART_CR1_UE;
     
     while(1) {
-        const char *msg = \"hello artem\r\n\";
+        const char *msg = "hello artem\r\n";
         while(*msg) {
             while(!(USART2->SR & USART_SR_TXE));
             USART2->DR = *msg++;

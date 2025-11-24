@@ -1,0 +1,6 @@
+using sysbus
+
+// STM32F407VG - 1MB Flash, 192KB RAM
+stm32f4: Machine.STM32F4VP @ sysbus
+    cpu: CPU.CortexM @ sysbus
+        -> cpu@0
